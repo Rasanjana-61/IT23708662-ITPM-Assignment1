@@ -129,7 +129,7 @@ Open **Assignment 1 - Test cases.xlsx** and fill only these columns:
 IT23708662-ITPM-Assignment1/
 ├── README.md                          # This file
 ├── test_automation.py                 # Main automation script
-└── Assignment 1 - Test cases.xlsx     # Test case spreadsheet
+└── IT23708662 - Test cases.xlsx     # Test case spreadsheet
 ```
 
 ---
