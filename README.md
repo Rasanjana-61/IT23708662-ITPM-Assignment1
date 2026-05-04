@@ -56,9 +56,18 @@ playwright install
 
 ## Running the Automation
 
-Execute the test automation script with the following command:
+### Option 1: From the parent directory (`IT23708662`)
 
 ```bash
+python IT23708662-ITPM-Assignment1/test_automation.py --excel "IT23708662-ITPM-Assignment1/IT23708662 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+```
+
+### Option 2: From the assignment folder (Recommended)
+
+Navigate to the assignment folder first:
+
+```bash
+cd IT23708662-ITPM-Assignment1
 python test_automation.py --excel "IT23708662 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 ```
 
